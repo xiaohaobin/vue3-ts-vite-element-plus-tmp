@@ -1,6 +1,6 @@
 /**
  * @description: 自定义i18n ts定义
- * @author LiQingSong
+ * @author xiaohaobin
  */
 
 /**

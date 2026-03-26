@@ -105,6 +105,9 @@ export default defineConfig(({ command, mode }) => {
 		plugins: vitePlugins,
 		css: {
 			preprocessorOptions: {
+				scss: {
+					silenceDeprecations: ["legacy-js-api"],
+				},
 				less: {
 					javascriptEnabled: true,
 				},

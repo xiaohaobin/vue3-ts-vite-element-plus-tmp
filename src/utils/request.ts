@@ -1,6 +1,6 @@
 /**
  * @description: 自定义 request 网络请求工具,基于axios
- * @author LiQingSong
+ * @author xiaohaobin
  */
 import { ElMessage } from "element-plus";
 import qs from "qs";

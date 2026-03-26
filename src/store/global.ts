@@ -1,6 +1,6 @@
 /**
  * @description: 全局 store
- * @author LiQingSong
+ * @author xiaohaobin
  */
 import { defineStore } from "pinia";
 import { theme, menuLayout, menuStyle, isTabsNav, isLayoutFooter } from "@/config/settings";

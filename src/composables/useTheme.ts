@@ -4,7 +4,7 @@ import { useGlobalStore } from "@/store/global";
 
 /**
  * @description:设置 模板主题
- * @author LiQingSong
+ * @author xiaohaobin
  */
 export const useTheme = (): Ref<boolean> => {
 	const globalStore = useGlobalStore();

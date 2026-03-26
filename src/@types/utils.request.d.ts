@@ -1,6 +1,6 @@
 /**
  * @description: 自定义 request 网络请求工具 ts定义
- * @author LiQingSong
+ * @author xiaohaobin
  */
 import { AxiosRequestConfig } from "axios";
 import { ContentTypeEnum } from "@/enums/utils.request.enum";

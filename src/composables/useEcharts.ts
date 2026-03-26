@@ -11,7 +11,7 @@ export type EChartsOption = echarts.EChartsOption;
  * @param cb Function|undefined      回调函数 读取数据
  * @param theme string|undefined     使用的主题
  * @returns
- * @author LiQingSong
+ * @author xiaohaobin
  */
 export default function useEcharts(
 	labRef: Ref<HTMLDivElement | HTMLCanvasElement | undefined>,

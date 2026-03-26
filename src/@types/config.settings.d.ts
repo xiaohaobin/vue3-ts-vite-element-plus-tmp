@@ -1,6 +1,6 @@
 /**
  * @description: 站点配置 ts定义
- * @author LiQingSong
+ * @author xiaohaobin
  */
 
 /**

@@ -5,7 +5,7 @@ import { TMenuStyle } from "@/@types/config.settings";
 
 /**
  * @description:设置 菜单导航风格
- * @author LiQingSong
+ * @author xiaohaobin
  */
 export const useMenuStyle = (): Ref<TMenuStyle> => {
 	const globalStore = useGlobalStore();

@@ -1,6 +1,6 @@
 /**
  * @description: MemberLayout rightTopTabNav  store
- * @author LiQingSong
+ * @author xiaohaobin
  */
 import { nextTick } from "vue";
 import { defineStore } from "pinia";

@@ -1,6 +1,6 @@
 /**
  * @description: 路由工具
- * @author LiQingSong
+ * @author xiaohaobin
  */
 import { RouteLocationNormalizedLoaded, RouteRecordRaw } from "vue-router";
 import { IPathKeyRouter, IRouterPathKeyRouter, IBreadcrumb, TTabNavType } from "@/@types/vue-router";
@@ -126,7 +126,7 @@ export const getSelectLeftMenuPath = (route: RouteRecordRaw): string => {
  * @param pathname string[] 路由path数组
  * @param jsonRoutesData IPathKeyRouter 经过formatRoutes处理，框架的所有pathKeyRouter路由
  * @returns RouteRecordRaw[]
- * @author LiQingSong
+ * @author xiaohaobin
  */
 export const getPathsTheRoutes = (pathname: string[], jsonRoutesData: IPathKeyRouter): RouteRecordRaw[] => {
 	const routeItem: RouteRecordRaw[] = [];
@@ -147,7 +147,7 @@ export const getPathsTheRoutes = (pathname: string[], jsonRoutesData: IPathKeyRo
  * @param pathname string 当前路由path
  * @param jsonRoutesData  IPathKeyRouter  IPathKeyRouter 经过formatRoutes处理，框架的所有pathKeyRouter路由
  * @returns BreadcrumbType[]
- * @author LiQingSong
+ * @author xiaohaobin
  */
 export const getBreadcrumbRoutes = (pathname: string, jsonRoutesData: IPathKeyRouter): IBreadcrumb[] => {
 	const route: RouteRecordRaw = jsonRoutesData[pathname] || {};
@@ -189,7 +189,7 @@ export const getBreadcrumbRoutes = (pathname: string, jsonRoutesData: IPathKeyRo
  * @param route2 vue-route
  * @param type 判断规则
  * @returns
- * @author LiQingSong
+ * @author xiaohaobin
  */
 export const equalTabNavRoute = (
 	route1: RouteLocationNormalizedLoaded,

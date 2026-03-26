@@ -35,7 +35,7 @@ const MemberLayoutRoutes: RouteRecordRaw[] = [
 				meta: {
 					title: "member-layout.menu.link.docs",
 				},
-				path: "http://admin-element-vue.liqingsong.cc/",
+				path: "http://admin-element-vue.xiaohaobin.cc/",
 				redirect: "",
 			},
 		],
@@ -239,8 +239,8 @@ const MemberLayoutRoutes: RouteRecordRaw[] = [
 							path: "/home",
 						},
 						{
-							title: "liqingsong.cc",
-							path: "http://liqingsong.cc",
+							title: "xiaohaobin.cc",
+							path: "http://xiaohaobin.cc",
 						},
 					],
 					tabNavCloseBefore: (close: () => void): void => {

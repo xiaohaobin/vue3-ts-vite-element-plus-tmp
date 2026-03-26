@@ -1,6 +1,6 @@
 /**
  * @description: 站点配置
- * @author LiQingSong
+ * @author xiaohaobin
  */
 import {
 	TAjaxHeadersTokenKey,

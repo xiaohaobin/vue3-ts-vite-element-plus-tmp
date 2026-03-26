@@ -1,6 +1,6 @@
 /**
  * @description: 自定义 is 方法
- * @author LiQingSong
+ * @author xiaohaobin
  */
 
 /**

@@ -5,7 +5,7 @@ import { TMenuLayout } from "@/@types/config.settings";
 
 /**
  * @description:设置 菜单导航布局
- * @author LiQingSong
+ * @author xiaohaobin
  */
 export const useMenuLayout = (): Ref<TMenuLayout> => {
 	const globalStore = useGlobalStore();

@@ -1,6 +1,6 @@
 /**
  * MemberLayout locale 入口
- * @author LiQingSong
+ * @author xiaohaobin
  */
 
 import { TI18n } from "@/@types/i18n.d";

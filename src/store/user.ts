@@ -1,6 +1,6 @@
 /**
  * @description: 登录用户信息 store
- * @author LiQingSong
+ * @author xiaohaobin
  */
 import { defineStore } from "pinia";
 import { ResultCodeEnum } from "@/enums/utils.request.enum";

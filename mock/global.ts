@@ -19,7 +19,7 @@ export default [
 				code: 0,
 				data: {
 					id: 1,
-					url: "http://uploads.liqingsong.cc/20200531/583057e8-8bab-4eee-b5a0-bec915089c0c.jpg",
+					url: "http://uploads.xiaohaobin.cc/20200531/583057e8-8bab-4eee-b5a0-bec915089c0c.jpg",
 					name: "xcx.jpg",
 				},
 			};

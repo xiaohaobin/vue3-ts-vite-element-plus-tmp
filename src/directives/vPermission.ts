@@ -1,6 +1,6 @@
 /**
  * 自定义指令 权限验证
- * @author LiQingSong
+ * @author xiaohaobin
  * 使用Demo：
  * <script lang="ts" setup>
  *    import vPermission from '@/directives/vPermission';

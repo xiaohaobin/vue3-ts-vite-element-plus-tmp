@@ -15,8 +15,8 @@ const code = `
 				path: "/home",
 			},
 			{
-				title: "liqingsong.cc",
-				path: "http://liqingsong.cc",
+				title: "xiaohaobin.cc",
+				path: "http://xiaohaobin.cc",
 			},
 		],
 	},

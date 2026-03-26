@@ -1,6 +1,6 @@
 /**
  * @description: 自定义 i18n 方法
- * @author LiQingSong
+ * @author xiaohaobin
  */
 
 import { TI18nKey } from "@/@types/i18n.d";

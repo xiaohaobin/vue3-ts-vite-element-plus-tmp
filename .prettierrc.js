@@ -32,7 +32,7 @@ module.exports = {
 	// 在html中空格是否是敏感的 "css" - 遵守CSS显示属性的默认值， "strict" - 空格被认为是敏感的 ，"ignore" - 空格被认为是不敏感的
 	htmlWhitespaceSensitivity: "css",
 	// 换行符使用 lf 结尾是 可选值"<auto|lf|crlf|cr>"
-	endOfLine: "crlf",
+	endOfLine: "auto",
 	// Vue文件脚本和样式标签缩进
 	vueIndentScriptAndStyle: false,
 	// 在jsx中把'>' 是否单独放一行

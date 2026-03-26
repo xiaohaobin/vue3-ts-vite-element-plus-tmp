@@ -5,7 +5,7 @@ import { LocationQuery } from "vue-router";
  * @param obj1
  * @param obj2
  * @returns
- * @author LiQingSong
+ * @author xiaohaobin
  */
 export function equalObjectKey(obj1: Object, obj2: Object): boolean {
 	const obj1Keys: string[] = Object.keys(obj1);
@@ -29,7 +29,7 @@ export function equalObjectKey(obj1: Object, obj2: Object): boolean {
  * 浅比较两个对象是否相等，这两个对象的值只能是数字或字符串
  * @param obj1
  * @param obj2
- * @author LiQingSong
+ * @author xiaohaobin
  * @returns
  */
 export function equalObject(obj1: LocationQuery, obj2: LocationQuery): boolean {

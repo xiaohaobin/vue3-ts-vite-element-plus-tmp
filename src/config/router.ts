@@ -1,6 +1,6 @@
 /**
  * @description: 路由配置入口
- * @author LiQingSong
+ * @author xiaohaobin
  */
 import NProgress from "nprogress"; // progress bar
 import "nprogress/nprogress.css"; // progress bar style

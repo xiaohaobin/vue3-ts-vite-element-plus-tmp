@@ -1,6 +1,6 @@
 /**
  * @description: 扩展路由类型 ts定义
- * @author LiQingSong
+ * @author xiaohaobin
  */
 import { RouteRecordRaw } from "vue-router";
 import "vue-router";

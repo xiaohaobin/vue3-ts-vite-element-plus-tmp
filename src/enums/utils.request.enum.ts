@@ -1,6 +1,6 @@
 /**
  * @description: 自定义 request 网络请求枚举配置
- * @author LiQingSong
+ * @author xiaohaobin
  */
 
 /**

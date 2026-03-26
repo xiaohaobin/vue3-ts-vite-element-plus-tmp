@@ -1,6 +1,6 @@
 /**
  * @description: 自定义I18n store
- * @author LiQingSong
+ * @author xiaohaobin
  */
 import { defineStore } from "pinia";
 import { isArray, isObject } from "@/utils/is";

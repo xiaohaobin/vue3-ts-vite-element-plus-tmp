@@ -6,7 +6,7 @@ import { TUseFormat } from "@/@types/i18n";
 /**
  * @description:设置 html Title  composables
  * @param routeItem 当前路由item
- * @author LiQingSong
+ * @author xiaohaobin
  */
 export const useTitle = (
 	routeItem: ComputedRef<RouteRecordRaw>,
