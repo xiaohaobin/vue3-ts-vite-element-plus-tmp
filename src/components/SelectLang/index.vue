@@ -14,11 +14,13 @@ const props = withDefaults(defineProps<Props>(), {
 
 const i18nStore = useI18nStore();
 
-const locales: TI18nKey[] = ["zh-CN", "zh-TW", "en-US"];
+const locales: TI18nKey[] = ["zh-CN", "zh-TW", "en-US", "ja-JP", "ko-KR"];
 const languageLabels: { [key in TI18nKey]: string } = {
 	"zh-CN": "简体中文",
 	"zh-TW": "繁体中文",
 	"en-US": "English",
+	"ja-JP": "日本語",
+	"ko-KR": "한국어",
 };
 
 // 点击菜单

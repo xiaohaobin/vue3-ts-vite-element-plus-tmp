@@ -9,11 +9,13 @@ import { getLocale, defaultLang } from "@/utils/i18n";
 import { TI18n, TI18nKey, TUseFormat } from "@/@types/i18n";
 
 // 导入 element-plus 语言包
-import { zhCn, zhTw, en, Language } from "element-plus/es/locale/index";
+import { zhCn, zhTw, en, ja, ko, Language } from "element-plus/es/locale/index";
 const elementPlusMessages = {
 	"zh-CN": zhCn,
 	"zh-TW": zhTw,
 	"en-US": en,
+	"ja-JP": ja,
+	"ko-KR": ko,
 };
 
 // 导入全局自定义语言

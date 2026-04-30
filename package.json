@@ -29,7 +29,8 @@
 		"pinia": "^2.0.28",
 		"qs": "^6.11.0",
 		"vue": "^3.2.45",
-		"vue-router": "^4.1.6"
+		"vue-router": "^4.1.6",
+		"xlsx": "^0.18.5"
 	},
 	"devDependencies": {
 		"@types/lodash": "^4.14.191",

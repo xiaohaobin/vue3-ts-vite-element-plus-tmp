@@ -37,6 +37,13 @@ const routes: RouteRecordRaw[] = [
 			},
 		],
 	},
+	{
+		path: "/excelToolPage",
+		meta: {
+			title: "Excel工具页",
+		},
+		component: () => import("@/pages/excelToolPage/index.vue"),
+	},
 
 	{
 		path: "/",

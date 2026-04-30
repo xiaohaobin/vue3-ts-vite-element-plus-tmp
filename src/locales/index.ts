@@ -7,11 +7,15 @@ import { TI18n } from "@/@types/i18n.d";
 import zhCN from "./zh-CN";
 import zhTW from "./zh-TW";
 import enUS from "./en-US";
+import jaJP from "./ja-JP";
+import koKR from "./ko-KR";
 
 const locales: TI18n = {
 	"zh-CN": zhCN,
 	"zh-TW": zhTW,
 	"en-US": enUS,
+	"ja-JP": jaJP,
+	"ko-KR": koKR,
 };
 
 export default locales;

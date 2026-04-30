@@ -6,7 +6,7 @@
 /**
  * @description: 语言名类型
  */
-export type TI18nKey = "zh-CN" | "zh-TW" | "en-US";
+export type TI18nKey = "zh-CN" | "zh-TW" | "en-US" | "ja-JP" | "ko-KR";
 
 /**
  * @description: 语言值类型
