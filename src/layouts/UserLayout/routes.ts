@@ -12,6 +12,13 @@ const UserLayoutRoutes: RouteRecordRaw[] = [
 				path: "login",
 				component: () => import("@/pages/user/login/index.vue"),
 			},
+			{
+				meta: {
+					title: "注册",
+				},
+				path: "register",
+				component: () => import("@/pages/user/register/index.vue"),
+			},
 		],
 	},
 ];

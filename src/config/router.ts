@@ -1,5 +1,10 @@
 /**
  * @description: 路由配置入口
+ * 路由总入口
+router.ts 这是路由的核心配置文件。它的作用包括：
+组合路由结构：将不同的布局（SecurityLayout, MemberLayout, UserLayout）及其子路由整合在一起。
+路由守卫：包含 router.beforeEach 和 router.afterEach，用于处理加载进度条（NProgress）、清除待处理的请求等逻辑。
+配置历史模式：定义使用 createWebHashHistory。
  * @author xiaohaobin
  */
 import NProgress from "nprogress"; // progress bar

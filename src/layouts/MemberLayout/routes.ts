@@ -1,3 +1,13 @@
+/**
+ * @description: MemberLayout 路由配置
+ * 业务功能路由 (核心修改点)
+routes.ts 这是您最需要关注的文件。它定义了登录后的 主后台区域 的所有菜单和页面路由。
+作用：控制侧边栏菜单的显示、图标、权限以及对应的页面组件加载。
+清理建议：在提取框架时，您需要删除此文件中关于 list, form, detail 等演示功能的配置条目。
+ * @author xiaohaobin
+ * 
+*/
+
 import { RouteRecordRaw } from "vue-router";
 import { homePath } from "@/config/settings";
 

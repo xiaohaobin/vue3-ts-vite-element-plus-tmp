@@ -96,6 +96,9 @@ const onSubmit = async () => {
 			<div class="item">
 				<el-button @click="onSubmit" :loading="loading" class="width100" type="primary">提交</el-button>
 			</div>
+			<div class="item footer">
+				<router-link to="/user/register">还没有账号？立即注册</router-link>
+			</div>
 		</el-form>
 		<!-- <div class="item2">
 			<RouterLink to="/">还没有账户？现在注册！</RouterLink>
@@ -118,6 +121,10 @@ const onSubmit = async () => {
 			box-sizing: border-box;
 			width: 100%;
 		}
+	}
+	.footer {
+		text-align: right;
+		font-size: 14px;
 	}
 	.item2 {
 		padding: 0 20px;
